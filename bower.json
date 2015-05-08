@@ -1,0 +1,19 @@
+{
+  "name": "Angular-Image-Board-19-Feb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Luekerc/Day-28",
+  "authors": [
+    "Charles Lueker <charleslueker@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.13"
+  }
+}

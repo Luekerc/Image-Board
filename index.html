@@ -1,0 +1,46 @@
+<html ng-app="app" ng-cloak>
+   <head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <title>Day 28 Responsive Angular Form</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   </head>
+   <body ng-controller="imagesController">
+
+      <div id="top-banner">
+         <i class="icon ion-android-add-circle" ng-click="hideForm()"></i><span class="logo">Pict<span class="UR">UR</span>frame</span>
+      </div>
+
+      <form id="form" ng-hide="HideForm">
+         <div id="inputs">
+            <input type="text" placeholder="Image URL" ng-model="image">
+            <input type="text" placeholder="Write caption..." ng-model="caption">
+         </div>
+         <nav>
+
+            <button type'button' class="cancel" ng-click="clearInputs">CANCEL</button>
+
+            <button class='add-image' type='button' ng-click="sendData(image,caption)"> ADD IMAGE</button>
+
+         </nav>
+      </form>
+
+      <div id="white-wall">
+         <div id="gray-wall">
+            <div id="pic-caption" ng-repeat="message in messages">
+               <img ng-src={{message.image}}>
+               <div class='caption'>{{message.caption}}</div>
+            </div>
+         </div>
+      </div>
+
+	<script type = "text/javascript" src="bower_components/angular/angular.min.js" ></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controllers.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+#top-banner{
+	background-color: rgb(60, 103,153);
+	height: 3em;
+	padding-top: 1em;
+}
+.logo{
+	margin: 0 0 0 1em;
+	font-size: 1.5em;
+	color: white;
+	opacity: 0.8;
+	
+}
+.ur{
+	font-weight: bold;
+	color: yellow;
+	font-style: 1.75;
+	opacity: 0.75;
+}
+
+i{
+	font-size: 2em;
+	margin: 0.5em 0 0.25em 1em;
+	opacity: 0.5;
+}
+
+#form{
+	background-color: white;
+	height: 7em;
+	padding-top: 2em;
+}
+input{
+	margin: 0.25em 0 0 0;
+	display: block;
+	font-size: 1em;
+	width: 24em;
+}
+#white-wall{
+	background-color: rgb(237,238,239);
+
+}
+#gray-wall{
+	background-color: rgb(224,225,226);
+	height: 50em;
+	text-align: center;
+	margin-left: 0em;
+}
+nav{
+	margin: 1em 0 0 0;
+	float: right;
+}
+.cancel{
+	background-color: rgb(182,182,182);
+	border-radius: 5px;
+	height: 4em;
+}
+.add-image{
+	background-color: rgb(23,170,86);
+	border-radius: 5px;
+	height: 4em;
+}
+#pic-caption{
+	padding-top: 3em;
+	width: 20em;
+	margin-left: 2em;
+}
+
+#pic-caption img{
+	width: 20em;
+}
+.caption{
+	padding: 0.5em;
+	background-color: white;
+	width: 19em;
+}
